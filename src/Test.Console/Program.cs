@@ -7,12 +7,12 @@ using hello;
 
 namespace test.console
 {
-    //Hello!
+    //Hello Ruken
     class Program
     {
         static async Task Main(string[] args)
         {
-            var serviceProvider = new ServiceCollection();
+            var serviceProvider = new ServiceCollection(); 
             Console.WriteLine("DI Test");
 
             //async test
