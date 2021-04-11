@@ -6,7 +6,7 @@
 			"Command": "dotnet script",
 			"Args": [
 				"root/repository",
-				"root/testoutput"
+				"root/repository/src/Test.Console/bin/release/net5.0/publish"
 			]
 		},
 		{
@@ -16,14 +16,6 @@
 		{
 			"TargetPath": "root/repository/src/Test.Console/Test.Console.csproj",
 			"Command": "dotnet publish"
-		},
-		{
-			"TargetPath": "root/repository/scripts/test.csx",
-			"Command": "dotnet script",
-			"Args": [
-				"root/repository",
-				"root/repository/src/Test.Console/bin/release/net5.0/publish"
-			]
 		},
 		{
 			"TargetPath": "root/repository/src/Test.Console/bin/release/net5.0/publish",
