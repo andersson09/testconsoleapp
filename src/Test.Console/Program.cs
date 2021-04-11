@@ -20,7 +20,7 @@ namespace test.console
 
             Console.WriteLine(service.Run("Dan"));
 
-            await Task.Delay(5000);
+            await Task.Delay(100);
             Console.WriteLine(service.Run("Sonia"));
 
             var config = new MapperConfiguration(cfg => {

@@ -11,7 +11,7 @@ Console.WriteLine($"Output path: {outputPath}");
 var inputText = File.ReadAllText($"{inputPath}/testInputFile.txt");
 Console.WriteLine(inputText);
 
-await Task.Delay(2000);
+await Task.Delay(10);
 
 var content = $"{inputText} Dan";
 
