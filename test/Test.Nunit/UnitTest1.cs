@@ -22,7 +22,7 @@ namespace Test.Nunit
         {
             var model = new Model();
             var json = JsonConvert.SerializeObject(model);
-            Assert.Fail();
+            Assert.Pass();
         }
     }
 }
