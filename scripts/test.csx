@@ -3,11 +3,18 @@
 using System;
 using System.Threading.Tasks;
 using System.IO;
+using System.Net.Http;
 using AutoMapper;
 
-//hi
-
+//nuget test
 Console.WriteLine(typeof(MapperConfiguration));
+
+//http client test
+var client = new HttpClient();
+var response = await client.GetAsync("https://api.ipify.org/?format=json");
+var result = await response.Content.ReadAsStringAsync();
+Console.WriteLine(result);
+
 string inputPath = Args[0];
 string outputPath = Args[1];
 
