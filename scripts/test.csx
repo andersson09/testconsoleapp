@@ -5,6 +5,8 @@ using System.Threading.Tasks;
 using System.IO;
 using AutoMapper;
 
+//hi
+
 Console.WriteLine(typeof(MapperConfiguration));
 string inputPath = Args[0];
 string outputPath = Args[1];
