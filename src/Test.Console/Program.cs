@@ -9,6 +9,7 @@ namespace test.console
 {
     //Hello! Testing 123
     //Ruken
+    //Hi
     class Program
     {
         static async Task Main(string[] args)
