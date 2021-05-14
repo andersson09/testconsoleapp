@@ -7,7 +7,7 @@ using hello;
 
 namespace test.console
 {
-    //Hello 2
+    //Hello
     class Program
     {
         static async Task Main(string[] args)
