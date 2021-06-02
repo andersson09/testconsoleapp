@@ -5,7 +5,7 @@ namespace hello
     
     class Program
     {
-        //Test 1
+        //Test 2
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
