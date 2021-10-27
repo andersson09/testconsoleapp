@@ -2,7 +2,7 @@
 
 namespace lol
 {
-    //hi 123
+    //hi 1234
     class Program
     {
         static void Main(string[] args)
